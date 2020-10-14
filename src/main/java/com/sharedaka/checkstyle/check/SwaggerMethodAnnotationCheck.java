@@ -87,6 +87,4 @@ public class SwaggerMethodAnnotationCheck extends AbstractAnnotationParentCheck 
             }
         }
     }
-
-
 }

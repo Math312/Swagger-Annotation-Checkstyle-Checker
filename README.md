@@ -6,6 +6,13 @@
 2. @RequestMapping、@GetMapping、@PostMapping、@PutMapping、@DeleteMapping修饰的方法出现如下情况：
     1. 不添加@ApiOperation注释，或者属性内容为null或者空字符串
     2. 不添加@ApiImplicitParams注释
+    3. @ApiImplicitParam注解缺少属性
+    - name：参数名
+    - required: 是否必填
+    - dataType： 数据类型
+    - dataTypeClass： 数据对应的Class对象
+    - paramType：参数类型 query 查询参数 or body 请求体参数
+    - value： 参数备注
 
 使用方法：
 
